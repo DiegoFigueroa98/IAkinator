@@ -1,0 +1,111 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;600;700;800;900&display=swap');
+/* Variables */
+:root {
+	--dark-gray-color       : #232323;
+	--gray-color            : #333333;
+	--hover-gray-color      : #eeeeee;
+	--scarlata-color        : #cc2b53;
+	--hover-scarlata-color  : #ee0e46;
+	--white-color           : #f8f8f8;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 600;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url('../images/fortune_teller.jpg') no-repeat center center fixed;
+	background-size: cover;
+	text-align: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+.main-wrapper {
+	background: var(--white-color);
+	height: auto;
+	padding: 2em;
+	border-radius: 15px;
+	width: 40vw;
+}
+
+.question-card__header {
+	background: var(--hover-gray-color);
+	border-radius: 15px;
+	margin-bottom: 2em;
+	padding: 1.5em;
+}
+
+.question-card__header > h2 {
+	font-size: 1.7em;
+	font-weight: 800;
+}
+
+.question-number {
+	margin-bottom: 1.5em;
+}
+
+.question-title {
+	margin-bottom: 2.7em;
+}
+
+.question-title span {
+	color: var(--hover-scarlata-color);
+}
+
+.answers-wrapper {
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 2.5em;
+}
+
+.answers-wrapper .answer-button {
+	background-image: linear-gradient(147deg, #6e91f8 0%, #0e46ee 74%);
+	border-radius: 25px;
+	color: var(--white-color);
+	font-size: 1.2em;
+	opacity: 0.8;
+	padding: 0.8em;
+	text-decoration: none;
+	width: 40%;
+}
+
+.answers-wrapper .answer-button:first-child {
+	background-image: linear-gradient(147deg, #fe8a39 0%,  #ee0e46 74%);
+}
+
+.answers-wrapper .answer-button:hover {
+	opacity: 1;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	background: var(--hover-gray-color);
+	border-radius: 15px;
+	text-align: center;
+	padding: 2em;
+}
+
+.footer a {
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+.footer a:first-child {
+	margin-bottom: 1.5em;
+	color: var(--hover-scarlata-color);
+}
+
+.footer a:nth-child(2) {
+	color: var(--dark-gray-color);
+}
+
