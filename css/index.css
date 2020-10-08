@@ -1,7 +1,7 @@
 /* Variables */
 :root {
 	--dark-gray-color       : #232323;
-	--gray-color            : #333333;
+	--gray-color            : #b3b3b3;;
 	--hover-gray-color      : #eeeeee;
 	--scarlata-color        : #cc2b53;
 	--hover-scarlata-color  : #ee0e46;
@@ -35,6 +35,7 @@ body {
 	width: 40vw;
 }
 
+/* Index view */
 .question-card__header {
 	background: var(--hover-gray-color);
 	border-radius: 15px;
@@ -75,17 +76,6 @@ body {
 	text-decoration: none;
 	width: 40%;
 }
-.answers-wrapper .answer-success {
-	background-image: linear-gradient(147deg, #6e91f8 0%, #0e46ee 74%);
-	border-radius: 25px;
-	color: var(--white-color);
-	font-size: 1.2em;
-	opacity: 0.8;
-	padding: 0.8em;
-	text-decoration: none;
-	width: 40%;
-}
-
 
 .answers-wrapper .answer-button:first-child {
 	background-image: linear-gradient(147deg, #fe8a39 0%,  #ee0e46 74%);
@@ -95,14 +85,13 @@ body {
 	opacity: 1;
 }
 
-
 .footer {
 	display: flex;
 	flex-direction: column;
 	background: var(--hover-gray-color);
 	border-radius: 15px;
 	text-align: center;
-	padding: 1em;
+	padding: 2em;
 }
 
 .footer a {
@@ -118,24 +107,3 @@ body {
 .footer a:nth-child(2) {
 	color: var(--dark-gray-color);
 }
-
-.footer img {
-	text-align: center;
-}
-.card {
-	color: cornsilk;
-	background-color: cornflowerblue;
-	border-radius: 15px;
-	margin-bottom: 1.5em;
-}
-textarea{
-	background-color: lightblue;
-	width: 90%;
-	border-radius: 5px;
-	border:2px solid #0e46ee;
-	text-decoration-color: lightseagreen;
-	text-align: center;
-	font-size: 16px;
-}
-
-

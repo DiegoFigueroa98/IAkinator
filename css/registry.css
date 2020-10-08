@@ -1,0 +1,140 @@
+/* Variables */
+:root {
+	--dark-gray-color       : #232323;
+	--gray-color            : #b3b3b3;;
+	--hover-gray-color      : #eeeeee;
+	--scarlata-color        : #cc2b53;
+	--hover-scarlata-color  : #ee0e46;
+	--white-color           : #f8f8f8;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 600;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url('../images/fortune_registry.jpg') no-repeat center center fixed;
+	background-size: cover;
+	text-align: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+.registry-main-wrapper {
+	background: var(--white-color);
+	height: auto;
+	padding: 2em;
+	border-radius: 15px;
+	width: 35vw;
+}
+
+.registry-form {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
+
+.registry-question-card__header {
+	background: var(--hover-gray-color);
+	border-radius: 15px;
+	margin-bottom: 2em;
+	padding: 1.5em;
+}
+
+.registry-question-card__header > h2 {
+	font-size: 1.7em;
+	font-weight: 800;
+}
+
+.registry-question-number {
+	margin-bottom: 1.5em;
+}
+
+.registry-question-title {
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	margin-bottom: 2em;
+	width: 80%;
+	max-width: 80%;
+}
+
+.registry-question-title h2 {
+	font-size: 1.41em;
+	font-weight: 500;
+	margin-bottom: 0.8em;
+	text-align: left;
+	width: 100%;
+}
+
+.registry-question-input, .registry-question-input:focus {
+	border-radius: 15px;
+	border: solid 2px var(--gray-color);
+	font-size: 1.2em;
+	font-weight: 400;
+	padding: 0.5em 0.8em;
+}
+
+.registry-question-input:focus {
+	border-color: #6e91f8;
+}
+
+.registry-question-input:invalid:focus {
+	border-color: #b6318e
+}
+
+.registry-question-title span {
+	color: #903675;
+}
+
+.registry-answers-wrapper {
+	width: 80%;
+}
+
+.registry-answers-wrapper .registry-answer-button {
+	background:linear-gradient(135deg, #e8448a 0%,#903675 74%);
+	border-radius: 25px;
+	color: var(--white-color);
+	cursor: pointer;
+	font-size: 1.2em;
+	margin-bottom: 2em;
+	opacity: 0.8;
+	padding: 0.8em;
+	text-decoration: none;
+	width: 100%;
+}
+
+.registry-answers-wrapper .registry-answer-button:hover {
+	opacity: 1;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	background: var(--hover-gray-color);
+	border-radius: 15px;
+	text-align: center;
+	padding: 1.5em;
+}
+
+.footer a {
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+.footer a:first-child {
+	margin-bottom: 1.2em;
+	color: #903675;
+}
+
+.footer a:nth-child(2) {
+	color: var(--dark-gray-color);
+}

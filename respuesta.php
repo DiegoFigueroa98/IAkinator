@@ -3,55 +3,47 @@
 
 	<head>
 		<title>IA-kinator</title>
-		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;600;700;800&display=swap" rel="stylesheet"> 
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/registry.css">
 	</head>
 
 	<body>
-		<main class="main-wrapper">
-			<section class="question-card">
-				<article class="question-card__header">
+		<main class="registry-main-wrapper">
+			<section class="registry-question-card">
+				<article class="registry-question-card__header">
 					<h2>IA-kinator</h2>
 				</article>
-				<article class="question-card__body">
+				<article class="registry-question-card__body">
 
 					<?php
-					//CONECTAMOS CON LA BD
 					require "conexion.php";
 
-					//RECOGEMOS LA RESPUESTA
 					$respuesta = $_GET["r"];
 					$nodo = $_GET["n"];
 					$nombreAnterior = $_GET["p"];
 					$numPregunta = $_GET["np"];
 
-
-					//----------------------------------------------
 					function formularioRespuesta($n,$p){
 						
-						echo "<div class='contenedorPregunta'>";
-						
-						echo "<form action='crear.php' id='formulario' method='POST'>";
-						echo "<textarea id='nodo' name='nodo' form='formulario' placeholder='nombre' style='display:none;'>".$n."</textarea>";
-						echo "<textarea id='nombreAnterior' name='nombreAnterior' form='formulario' placeholder='nombre' style='display:none;'>".$p."</textarea>";
-								
-						echo "<div class='question-title'>";
-						echo "<h2>¿En qué animal habías pensado?</h2>";
-						echo "<input type='text' name='nombre' id='nombre' placeholder='Nombre del animal' form='formulario' required>";
-						echo "</div>";
-						
-						echo "<div class='question-title'>";
-						echo "<h2>¿Qué característica tiene este personaje que no tenga  <span>".$p." <span>?</h2>";
-						echo "<textarea id='caracteristicas' name='caracteristicas' form='formulario' placeholder=' Caracteristicas...'></textarea>";
-						echo "</div>";
+						echo "<form action='crear.php' class='registry-form' id='formulario' method='POST'>";
+							echo "<textarea id='nodo' name='nodo' form='formulario' placeholder='nombre' style='display:none;'>".$n."</textarea>";
+							echo "<textarea id='nombreAnterior' name='nombreAnterior' form='formulario' placeholder='nombre' style='display:none;'>".$p."</textarea>";
+									
+							echo "<div class='registry-question-title'>";
+								echo "<h2>¿En qué animal habías pensado?</h2>";
+								echo "<input type='text' name='nombre' id='nombre' placeholder='Nombre del animal' class='registry-question-input' required>";
+							echo "</div>";
+							
+							echo "<div class='registry-question-title'>";
+								echo "<h2>¿Qué característica tiene este animal que no tenga  <span>".$p." </span>?</h2>";
+								echo "<input type='text' name='caracteristicas' id='caracteristicas' placeholder='Caracteristica del animal' class='registry-question-input' required>";
+							echo "</div>";
 
-						echo "<div class='answers-wrapper'>";
-						echo "<button class='answer-success 'type='submit' name='ENVIAR'>ENVIAR</button>";
-						echo "</div>";
+							echo "<div class='registry-answers-wrapper'>";
+								echo "<button class='registry-answer-button' type='submit' name='ENVIAR'>Enviar</button>";
+							echo "</div>";
 						echo "</form>";
 						
-						
-						echo "</div>";
 						
 					}
 					//----------------------------------------------

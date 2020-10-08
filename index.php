@@ -3,8 +3,8 @@
 
 <head>
 	<title>IAkinator</title>
-	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;600;700;800&display=swap" rel="stylesheet"> 
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 
 <body>
@@ -115,7 +115,7 @@ if ($resultado = mysqli_query($enlace, $consulta)) {
 		
 		else{
 			echo "<div class='question-title'>";
-			echo "<h2>¿Tu personaje puede/tiene <span>". $texto . "</span>?</h2>";
+			echo "<h2>¿Tu animal puede/tiene <span>". $texto . "</span>?</h2>";
 			echo "</div>";
 			
 			echo "<div class='answers-wrapper'>";
