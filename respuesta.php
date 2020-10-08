@@ -3,6 +3,7 @@
 
 	<head>
 		<title>IA-kinator</title>
+		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;600;700;800&display=swap" rel="stylesheet"> 
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 	</head>
 
@@ -30,12 +31,13 @@
 						
 						echo "<div class='contenedorPregunta'>";
 						
+						echo "<form action='crear.php' id='formulario' method='POST'>";
 						echo "<textarea id='nodo' name='nodo' form='formulario' placeholder='nombre' style='display:none;'>".$n."</textarea>";
 						echo "<textarea id='nombreAnterior' name='nombreAnterior' form='formulario' placeholder='nombre' style='display:none;'>".$p."</textarea>";
 								
 						echo "<div class='question-title'>";
-						echo "<h2>¿En quién habías pensado?</h2>";
-						echo "<textarea id='nombre' name='nombre' form='formulario' placeholder=' Nombre...'></textarea>";
+						echo "<h2>¿En qué animal habías pensado?</h2>";
+						echo "<input type='text' name='nombre' id='nombre' placeholder='Nombre del animal' form='formulario' required>";
 						echo "</div>";
 						
 						echo "<div class='question-title'>";
@@ -43,7 +45,6 @@
 						echo "<textarea id='caracteristicas' name='caracteristicas' form='formulario' placeholder=' Caracteristicas...'></textarea>";
 						echo "</div>";
 
-						echo "<form action='crear.php' id='formulario' method='POST'>";
 						echo "<div class='answers-wrapper'>";
 						echo "<button class='answer-success 'type='submit' name='ENVIAR'>ENVIAR</button>";
 						echo "</div>";

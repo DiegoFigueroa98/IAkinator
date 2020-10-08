@@ -3,6 +3,7 @@
 
 <head>
 	<title>IAkinator</title>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;600;700;800&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 

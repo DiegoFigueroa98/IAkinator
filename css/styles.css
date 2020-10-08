@@ -1,5 +1,3 @@
-/* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;600;700;800;900&display=swap');
 /* Variables */
 :root {
 	--dark-gray-color       : #232323;
@@ -120,6 +118,7 @@ body {
 .footer a:nth-child(2) {
 	color: var(--dark-gray-color);
 }
+
 .footer img {
 	text-align: center;
 }
