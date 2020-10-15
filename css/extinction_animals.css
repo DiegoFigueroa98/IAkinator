@@ -38,7 +38,7 @@ body {
 .animal-wrapper {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: auto;
+    grid-template-rows: repeat(4, 1fr);
 	background: var(--white-color);
 	padding: 1em;
 	height: 90%;
@@ -48,6 +48,101 @@ body {
 .animal-card {
     display: flex;
     align-items: flex-end;
+}
+
+.animal-card.bolson{
+    background: url("../images/extinction/bolson.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.caguama{
+    background: url("../images/extinction/caguama.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.conejo{
+    background: url("../images/extinction/conejo.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.coqueta{
+    background: url("../images/extinction/coqueta.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.guacamaya{
+    background: url("../images/extinction/guacamaya.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.jaguar{
+    background: url("../images/extinction/jaguar.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.lobo{
+    background: url("../images/extinction/lobo.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.loro{
+    background: url("../images/extinction/loro.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.manati{
+    background: url("../images/extinction/manati.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.mascarita{
+    background: url("../images/extinction/mascarita.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.musaraña{
+    background: url("../images/extinction/musaraña.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.ocelote{
+    background: url("../images/extinction/ocelote.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.oso{
+    background: url("../images/extinction/oso.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.picamaderos{
+    background: url("../images/extinction/picamaderos.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.picote{
+    background: url("../images/extinction/picote.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.quetzal{
+    background: url("../images/extinction/quetzal.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.rana{
+    background: url("../images/extinction/rana.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.tapir{
+    background: url("../images/extinction/tapir.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.tuza{
+    background: url("../images/extinction/tuza.jpg") no-repeat; 
+    background-size: 100% 100%;
 }
 
 .animal-card:hover .animal-card__name>h2 {

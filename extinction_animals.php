@@ -15,104 +15,99 @@
         </div>
     </main>
 	<main class="animal-wrapper">
-        <section class="animal-card">
+        <section class="animal-card lobo">
             <article class="animal-card__name">
-                <h2 class="animal-name">Ajolote</h2>
+                <h2>Lobo gris mexicano</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card guacamaya">
             <article class="animal-card__name">
-                <h2>Sardinilla Yucateca</h2>
+                <h2>Guacamaya roja</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card manati">
             <article class="animal-card__name">
-                <h2>Pez con flecos del Golfo de México</h2>
+                <h2>Manatí del Caribe o de las Antillas</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card jaguar">
             <article class="animal-card__name">
-                <h2>Chara enana</h2>
+                <h2>Jaguar</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card tapir">
             <article class="animal-card__name">
-                <h2>Iguana espinosa del Golfo</h2>
+                <h2>Tapir de Braid o centroamericano</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card loro">
             <article class="animal-card__name">
-                <h2>Liebre de Tehuantepec</h2>
+                <h2>Loro cabeza amarilla</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card caguama">
             <article class="animal-card__name">
-                <h2>Vaquita marina</h2>
+                <h2>Tortuga caguama </h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card ocelote">
             <article class="animal-card__name">
-                <h2>Víbora pigmea mexicana</h2>
+                <h2>Ocelote</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card mascarita">
             <article class="animal-card__name">
-                <h2>Perrito de la pradera mexicano</h2>
+                <h2>Mascarita transvolcánica </h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card oso">
             <article class="animal-card__name">
-                <h2>Teporingo</h2>
+                <h2>Oso negro americano </h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card musaraña">
             <article class="animal-card__name">
-                <h2>Mapache de Cozumel</h2>
+                <h2>Musaraña de Los Tuxtlas </h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card picamaderos">
             <article class="animal-card__name">
-                <h2>Escorpión mexicano</h2>
+                <h2>Picamaderos imperial o carpintero imperial </h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card conejo">
             <article class="animal-card__name">
-                <h2>Lagarto topo mexicano</h2>
+                <h2>Conejo matorralero de la isla San José </h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card rana">
             <article class="animal-card__name">
-                <h2>Charal de Alchichica</h2>
+                <h2>Rana fisgona mayor </h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card picote">
             <article class="animal-card__name">
-                <h2>Mochuelo tamaulipeco</h2>
+                <h2>Picote tequila </h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card tuza">
             <article class="animal-card__name">
-                <h2>Chingolo serrano</h2>
+                <h2>Tuza lanuda</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card bolson">
             <article class="animal-card__name">
-                <h2>Nauyaca guerrerense de montaña</h2>
+                <h2>Tortuga de bolsón</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card coqueta">
             <article class="animal-card__name">
-                <h2>Tortuga de caja acuática</h2>
+                <h2>Coqueta de Guerrero </h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card quetzal">
             <article class="animal-card__name">
-                <h2>Murciélago platanero</h2>
-            </article>
-        </section>
-        <section class="animal-card">
-            <article class="animal-card__name">
-                <h2>Mofeta moteada pigmea</h2>
+                <h2>Quetzal</h2>
             </article>
         </section>
 	</main>
