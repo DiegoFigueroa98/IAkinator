@@ -65,9 +65,105 @@ body {
     align-items: flex-end;
 }
 
+
 .animal-card.ajolote{
-    background: url("../images/endemics/Ajolote.jpg") no-repeat; 
-    background-size: cover;
+    background: url("../images/endemics/ajolote.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.sardinilla{
+    background: url("../images/endemics/sardinilla.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.pez{
+    background: url("../images/endemics/pez.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.chara{
+    background: url("../images/endemics/chara.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.iguana{
+    background: url("../images/endemics/iguana.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.liebre{
+    background: url("../images/endemics/liebre.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.vaquita{
+    background: url("../images/endemics/vaquita.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.vibora{
+    background: url("../images/endemics/vibora.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.perrito{
+    background: url("../images/endemics/perrito.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.teporingo{
+    background: url("../images/endemics/teporingo.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.mapache{
+    background: url("../images/endemics/mapache.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.escorpion{
+    background: url("../images/endemics/escorpion.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.lagarto{
+    background: url("../images/endemics/lagarto.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.charal{
+    background: url("../images/endemics/charal.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.mochuelo{
+    background: url("../images/endemics/mochuelo.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.chingolo{
+    background: url("../images/endemics/chingolo.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.nauyaca{
+    background: url("../images/endemics/nauyaca.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.tortuga{
+    background: url("../images/endemics/tortuga.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.murcielago{
+    background: url("../images/endemics/murcielago.jpg") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.animal-card.mofeta{
+    background: url("../images/endemics/mofeta.jpg") no-repeat; 
+    background-size: 100% 100%;
 }
 
 .animal-card:hover .animal-card__name>h2 {

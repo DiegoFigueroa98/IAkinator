@@ -21,102 +21,102 @@
         </div>
     </main>
 	<main class="animal-wrapper">
-        <section class="animal-card ajolote">
+    <section class="animal-card ajolote">
             <article class="animal-card__name">
                 <h2 class="animal-name">Ajolote</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card sardinilla">
             <article class="animal-card__name">
                 <h2>Sardinilla Yucateca</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card pez">
             <article class="animal-card__name">
                 <h2>Pez con flecos del Golfo de México</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card chara">
             <article class="animal-card__name">
                 <h2>Chara enana</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card iguana">
             <article class="animal-card__name">
                 <h2>Iguana espinosa del Golfo</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card liebre">
             <article class="animal-card__name">
                 <h2>Liebre de Tehuantepec</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card vaquita">
             <article class="animal-card__name">
                 <h2>Vaquita marina</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card vibora">
             <article class="animal-card__name">
                 <h2>Víbora pigmea mexicana</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card perrito">
             <article class="animal-card__name">
                 <h2>Perrito de la pradera mexicano</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card teporingo">
             <article class="animal-card__name">
                 <h2>Teporingo</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card mapache">
             <article class="animal-card__name">
                 <h2>Mapache de Cozumel</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card escorpion">
             <article class="animal-card__name">
                 <h2>Escorpión mexicano</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card lagarto">
             <article class="animal-card__name">
                 <h2>Lagarto topo mexicano</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card charal">
             <article class="animal-card__name">
                 <h2>Charal de Alchichica</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card mochuelo">
             <article class="animal-card__name">
                 <h2>Mochuelo tamaulipeco</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card chingolo">
             <article class="animal-card__name">
                 <h2>Chingolo serrano</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card nauyaca">
             <article class="animal-card__name">
                 <h2>Nauyaca guerrerense de montaña</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card tortuga">
             <article class="animal-card__name">
                 <h2>Tortuga de caja acuática</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card murcielago">
             <article class="animal-card__name">
                 <h2>Murciélago platanero</h2>
             </article>
         </section>
-        <section class="animal-card">
+        <section class="animal-card mofeta">
             <article class="animal-card__name">
                 <h2>Mofeta moteada pigmea</h2>
             </article>
