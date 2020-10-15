@@ -1,0 +1,59 @@
+/* Variables */
+:root {
+	--dark-gray-color       : #232323;
+	--gray-color            : #b3b3b3;;
+	--hover-gray-color      : #eeeeee;
+	--scarlata-color        : #cc2b53;
+	--hover-scarlata-color  : #ee0e46;
+	--white-color           : #f8f8f8;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 600;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+	height: 100vh;
+	width: 100vw;
+}
+
+.title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    width: 100%;
+    padding: 1em;
+}
+
+.title-wrapper h2 {
+    color: black;
+}
+
+.animal-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+	background: var(--white-color);
+	padding: 1em;
+	height: 90%;
+	width: 100%;
+}
+
+.animal-card {
+    display: flex;
+    align-items: flex-end;
+}
+
+.animal-card:hover .animal-card__name>h2 {
+    display: block;
+}
+
+.animal-card__name h2 {
+    display: none;
+}
