@@ -9,9 +9,15 @@
 
 <body>
     <main class="title-wrapper">
-        <h2>Animales en peligro de extinción en México</h2>
-        <div class="buttons-container">
-            <a href="index.php"><button>Iniciar juego</button></a>
+        <div id="show-it">
+            <div class="title-elements">
+                <h2>Animales en peligro de extinción en México</h2>
+                <img src="images/mexico.svg" alt="">
+            </div>
+            <div class="buttons-container">
+                <a href="start.php"><button class="show-more">Ver endémicos</button></a>
+                <a href="index.php"><button class="start-game">Iniciar juego</button></a>
+            </div>
         </div>
     </main>
 	<main class="animal-wrapper">

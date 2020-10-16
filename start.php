@@ -10,10 +10,13 @@
 <body>
     <main class="title-wrapper">
         <div id="show-it">
-            <h2>Animales endémicos de México</h2>
+            <div class="title-elements">
+                <h2>Animales endémicos de México</h2>
+                <img src="images/mexico.svg" alt="">
+            </div>
             <div class="buttons-container">
-                <a href="extinction_animals.php"><button>Ver más animales</button></a>
-                <a href="index.php"><button>Iniciar juego</button></a>
+                <a href="extinction_animals.php"><button class="show-more">Ver más animales</button></a>
+                <a href="index.php"><button class="start-game">Iniciar juego</button></a>
             </div>
         </div>
         <div id="hide-it">

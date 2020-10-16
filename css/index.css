@@ -48,6 +48,10 @@ body {
 	font-weight: 800;
 }
 
+.question-card__body img {
+	margin-bottom: 1em;
+}
+
 .question-number {
 	margin-bottom: 0.5em;
 }

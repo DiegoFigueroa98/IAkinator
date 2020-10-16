@@ -107,7 +107,7 @@ if ($resultado = mysqli_query($enlace, $consulta)) {
 
 <?php
 	echo "<hr>";
-	echo "<br><br><a href='index.php?n=1&r=0'>Volver a probar</a>";
+	echo "<br><br><a href='start.php?n=1&r=0'>Volver a probar</a>";
 	echo "<br>";
 ?>
 

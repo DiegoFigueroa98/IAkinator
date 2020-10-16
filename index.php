@@ -119,7 +119,7 @@ if ($resultado = mysqli_query($enlace, $consulta)) {
 		
 		else{
 			echo "<div class='question-title'>";
-			echo "<h2>¿Tu animal puede/tiene <span>". $texto . "</span>?</h2>";
+			echo "<h2>¿Tu animal <span>". $texto . "</span>?</h2>";
 			echo "</div>";
 			
 			echo "<div class='answers-wrapper'>";
@@ -138,7 +138,7 @@ if ($resultado = mysqli_query($enlace, $consulta)) {
 ?>
 				<footer class="footer">
 <?php
-					echo "<a href='index.php?n=1&r=0'>Volver a probar</a>";
+					echo "<a href='start.php?n=1&r=0'>Volver a probar</a>";
 					echo "<a href='datos.php'>Datos de IA-kinator</a>";
 ?>
 				</footer>

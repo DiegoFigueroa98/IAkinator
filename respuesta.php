@@ -30,17 +30,8 @@
 							echo "<textarea id='nombreAnterior' name='nombreAnterior' form='formulario' placeholder='nombre' style='display:none;'>".$p."</textarea>";
 									
 							echo "<div class='registry-question-title'>";
-								echo "<h2>¿En qué animal habías pensado?</h2>";
-								echo "<input type='text' name='nombre' id='nombre' placeholder='Nombre del animal' class='registry-question-input' required>";
-							echo "</div>";
-							
-							echo "<div class='registry-question-title'>";
-								echo "<h2>¿Qué característica tiene este animal que no tenga  <span>".$p." </span>?</h2>";
-								echo "<input type='text' name='caracteristicas' id='caracteristicas' placeholder='Caracteristica del animal' class='registry-question-input' required>";
-							echo "</div>";
-
-							echo "<div class='registry-answers-wrapper'>";
-								echo "<button class='registry-answer-button' type='submit' name='ENVIAR'>Enviar</button>";
+								echo "<h2><span>¡Rayos!</span> No pude adivinar en qué animal estabas pensando</h2>";
+								echo "<img src=images/cat_crying.jpg>";
 							echo "</div>";
 						echo "</form>";
 						
@@ -105,7 +96,8 @@
 						}
 						//-----------------------------------------------------
 						
-						echo "<h2>¡GRACIAS POR JUGAR A IA-kinator! ;)</h2>";
+						echo "<h2 class='game-over-text'>¡Gracias por jugar <span>IA-kinator</span>!</h2>";
+						echo "<img src=images/cat_selfie.jpg class='game-over'>";
 					}
 
 
@@ -115,7 +107,7 @@
 
 					<?php
 
-						echo "<a href='index.php?n=1&r=0'>Volver a probar</a>";
+						echo "<a href='start.php?n=1&r=0'>Volver a probar</a>";
 						echo "<a href='datos.php'>Datos de IA-kinator</a>";
 					?>
 

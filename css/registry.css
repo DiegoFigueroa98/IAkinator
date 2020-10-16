@@ -91,8 +91,23 @@ body {
 	border-color: #b6318e
 }
 
-.registry-question-title span {
+span {
 	color: #903675;
+}
+
+.registry-question-title > img {
+	height: 200px;
+	object-fit: contain;
+}
+
+.game-over {
+	height: 210px;
+	object-fit: contain;
+	margin-bottom: 2em;
+}
+
+.game-over-text {
+	margin-bottom: 1em;
 }
 
 .registry-answers-wrapper {
