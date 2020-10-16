@@ -19,6 +19,7 @@
 
 require "conexion.php";
 
+
 $nodo = 1;
 $nodoRepuesto = 0;
 $numPregunta = 1;
@@ -79,10 +80,11 @@ else{
 	$nodoAleatorioAlt = $nodoNo;
 }
 
-$consulta = "SELECT texto,pregunta FROM arbol WHERE nodo = ".$nodo.";";
+$consulta = "SELECT texto,pregunta,direccion FROM arbol WHERE nodo = ".$nodo.";";
 
 $texto = '';
 $pregunta = true;
+$direccion ='';
  
 if ($resultado = mysqli_query($enlace, $consulta)) {
  
@@ -95,6 +97,7 @@ if ($resultado = mysqli_query($enlace, $consulta)) {
 		while ($fila = mysqli_fetch_row($resultado)) {
 			$texto 	  = $fila[0];
 			$pregunta = $fila[1];
+			$direccion	  = $fila[2];
 		}
 		
 		echo "<h2 class='question-number'>Pregunta #".$numPregunta."</h2>";
@@ -104,7 +107,8 @@ if ($resultado = mysqli_query($enlace, $consulta)) {
 			echo "<div class='question-title'>";
 			echo "<h2>¿Has pensado en <span>". $texto . "</span>?</h2>";
 			echo "</div>";
-			
+
+			echo "<img width=300 height=200 src=images/".$direccion.".jpg>";
 			
 			echo "<div class='answers-wrapper'>";
 			echo "<a class='answer-button' href='respuesta.php?r=1&n=".$nodo."&p=".$texto."&np=".$proxPregunta."'>SÍ</a>";

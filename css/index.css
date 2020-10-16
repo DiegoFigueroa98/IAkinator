@@ -39,8 +39,8 @@ body {
 .question-card__header {
 	background: var(--hover-gray-color);
 	border-radius: 15px;
-	margin-bottom: 2em;
-	padding: 1.5em;
+	margin-bottom: 1em;
+	padding: 0.5em;
 }
 
 .question-card__header > h2 {
@@ -49,11 +49,11 @@ body {
 }
 
 .question-number {
-	margin-bottom: 1.5em;
+	margin-bottom: 0.5em;
 }
 
 .question-title {
-	margin-bottom: 2.7em;
+	margin-bottom: 1em;
 }
 
 .question-title span {
@@ -63,7 +63,7 @@ body {
 .answers-wrapper {
 	display: flex;
 	justify-content: space-evenly;
-	margin-bottom: 2.5em;
+	margin-bottom: 1em;
 }
 
 .answers-wrapper .answer-button {
@@ -91,7 +91,7 @@ body {
 	background: var(--hover-gray-color);
 	border-radius: 15px;
 	text-align: center;
-	padding: 2em;
+	padding: 1em;
 }
 
 .footer a {
